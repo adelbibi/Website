@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 AUG 2017 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 AUG 2017 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1217,9 +1217,8 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 164.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 165.
 
-No file template.bbl.
 
 Package Fancyhdr Warning: \footskip is too small (30.0pt): 
  Make it at least 63.91998pt.
@@ -1227,22 +1226,30 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+No file template.bbl.
+
+Package Fancyhdr Warning: \footskip is too small (30.0pt): 
+ Make it at least 63.91998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 6E190C2EE42597467782DF3D0EAD1D0F;1247.
  ) 
 Here is how much of TeX's memory you used:
- 27219 strings out of 493089
- 504952 string characters out of 6134842
- 605951 words of memory out of 5000000
+ 27220 strings out of 493089
+ 504958 string characters out of 6134842
+ 606007 words of memory out of 5000000
  30254 multiletter control sequences out of 15000+600000
  59813 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,15n,87p,10360b,954s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,15n,91p,10360b,954s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
 cal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2015/texmf-d
@@ -1252,10 +1259,10 @@ ic/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lm
 sso10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsso17.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on template.pdf (3 pages, 523727 bytes).
+Output written on template.pdf (4 pages, 526920 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 500000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
  20594 words of extra memory for PDF output out of 20736 (max. 10000000)
 
