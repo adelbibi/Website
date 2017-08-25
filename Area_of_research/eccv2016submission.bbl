@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{bibi2015multi}
+Bibi, A., Ghanem, B.: Multi-template scale-adaptive kernelized correlation
+  filters. In: Proceedings of the IEEE International Conference on Computer
+  Vision Workshops. pp. 50--57 (2015)
+
+\bibitem{bibi2017fftlasso}
+Bibi, A., Itani, H., Ghanem, B.: Fftlasso: Large-scale lasso in the fourier
+  domain (2017)
+
+\bibitem{bibi2016target}
+Bibi, A., Mueller, M., Ghanem, B.: Target response adaptation for correlation
+  filter tracking. In: European Conference on Computer Vision. pp. 419--433.
+  Springer (2016)
+
+\bibitem{bibi20163d}
+Bibi, A., Zhang, T., Ghanem, B.: 3d part-based sparse tracker with automatic
+  synchronization and registration. In: Proceedings of the IEEE Conference on
+  Computer Vision and Pattern Recognition. pp. 1439--1448 (2016)
+
+\bibitem{zhang2016defense}
+Zhang, T., Bibi, A., Ghanem, B.: In defense of sparse tracking: Circulant
+  sparse tracker. In: Proceedings of the IEEE conference on computer vision and
+  pattern recognition. pp. 3880--3888 (2016)
+
+\end{thebibliography}

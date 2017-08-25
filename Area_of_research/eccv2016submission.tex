@@ -1,0 +1,94 @@
+\documentclass[article]{llncs}
+\usepackage[width=122mm,left=12mm,paperwidth=146mm,height=193mm,top=12mm,paperheight=217mm]{geometry}
+\usepackage{hyperref}
+
+
+
+\begin{document}
+ \title{Research Summary}
+ %\author{Adel Bibi}
+\author{\textbf{Adel Bibi} \\  {adel.bibi@kaust.edu.sa} , {bibiadel93@gmail.com} }
+
+
+\institute{\textbf{King Abdullah University of Science and Technology (KAUST)}}
+
+%\title{Research Summary} % Replace with your title
+\maketitle
+I'm a second year PhD student at King Abdullah University of Science and Technology (KAUST) located on the Red Sea at Thuwal in the Kingdom of Saudi Arabia under the supervision of Prof Bernard Ghanem. I have been developing my research experience since I joined KAUST in August 2014 when I first joined as a Masters student. Since then, I have worked on a variety of projects mainly around nonsmooth structured optimization problems and their applications in computer vision. Follows a summary list of projects I personally loved. 
+\newline
+
+
+\noindent \textbf{- Multi-Template Scale Adaptive Kernelized Correlation Filters (ICCVW15) \cite{bibi2015multi}.}
+
+In this work, we proposed an efficient new framework to jointly solve the problem of training correlation filters while representing the templates using kernelized multidimensional features. The framework solved through an alternating optimization problem where the update rule of each variable has a closed form solution. 
+\newline
+
+\noindent \textbf{- 3D Part-Based Sparse Tracker with Automatic Synchronization and Registration (CVPR16) \cite{bibi20163d}.}
+
+We proposed a new tracking framework that produces a sequence of 3D cuboids around objects in 3D in an RGBD video setup. The proposed framework was based on a class of generative trackers in a particle-filtering framework. The LASSO was our proposed formulation to incorporate the relation between different parts of the object. We also proposed a low-rank optimization problem to overcome nuisances in synchronization and registration of pairs of RGB and depth streams.
+\newline
+
+
+
+\noindent \textbf{- In Defense of Sparse Tracking: Circulant Sparse Tracker (CVPR16) \cite{zhang2016defense}.}
+
+In this work, we proposed a new object tracker that marries two major classes of tracking, namely generative and discriminative tracking. The framework couples a LASSO framework based trackers with convolutional-based trackers. The proposed optimization problem, CST, was solved efficiently with closed form expressions in the Fourier Domain in an ADMM framework achieving state-of-the-art performance. We presented the work as a spotlight in CVPR16.
+\newline
+
+\noindent \textbf{- Target Response Adaptation for Correlation Filter Tracking (ECCV16) \cite{bibi2016target}.}
+
+In this work, we proposed a generic framework to improve upon all existing correlation trackers by reducing the effects of circular boundary conditions that are a result of sampling the spectrum of both the filter and the image patch. We tackled the problem by collecting exact correlation scores that are later used as a prior in the objective. The proposed method improved upon all 5-baseline correlation trackers by significant margin. We presented the work as a spotlight in ECCV16.
+\newline
+
+\noindent \textbf{- FFTLasso: Large-Scale LASSO in the Fourier Domain (CVPR17) \cite{bibi2017fftlasso}.}
+
+In this work, we revisit the classical LASSO problem and propose a new exact equivalent formulation where an accelarated ADMM is proposed resulting into variables' updates in the Fourier Domain. The proposed solver, FFTLasso, is particularly well suited for solving large scale LASSOs where no linear system inversion nor matrix vector multiplication is required. Element wise operations and FFTs are the most expensive operations. The proposed reformulation allows tackling large-scale problems in a distributed fashion. We presented the work as an oral in CVPR17.
+\newline
+
+\noindent \textbf{- High Order Tensor Formulation for Convolutional Sparse Coding (ICCV17).}
+
+Convolutional sparse coding (CSC) has gained attention for its successful role as a reconstruction and a classification
+tool in the computer vision and machine learning community. In this paper, we propose a generic and
+novel formulation for the CSC problem that can handle an arbitrary order tensor of data. Backed with experimental results, our proposed formulation can not only tackle applications that are not possible with standard CSC solvers, including colored video reconstruction (5D-tensors), but it also performs favorably in reconstruction with much fewer
+parameters as compared to naive extensions of standard CSC to multiple features/channels.
+\newline
+
+\noindent \textbf{Under submission and on going projects:}
+
+\noindent \textbf{- Semi-Supervised Clustering.}
+
+In this project, I work on solving the exact integer program of the standard constrained k-means problem to handle generic constraints (i.e. pairwise and cardinality constraints). This is a submission for AAAI18.
+\newline
+
+
+
+\noindent \textbf{- Probablistic Moements as Regularizers for Deep Networks.}
+
+In this work, we are working on deriving closed form expressions for some statistical measures e.g. mean, second moment and variance for some deep networks. These closed form expressions can be used as regularizes to directly minimize input noise. They can also be used in learning input noise distributions that can fool networks with overwhelming probability. This is a submission for CVPR18.
+\newline
+
+
+\noindent \textbf{- Optimization Inspired Deep Netowrks.}
+
+In this work, I'm collaborating on a project where we can construct structured networks inspired by some famous optimization algorithms applied to classical problems based on primal-dual algorithms. This is a submission for CVPR18.
+\newline
+
+\noindent \textbf{- Under Water Color Correction.}
+
+This project is in collaboration with the Red Sea Center here at KAUST. The objective is to correct for the color artifact in images that are taken underwater. We have managed to achieve state-of-the-art-performance which was accomplished by solving a forth order objective function that maps the covariance of the underwater images to natural images along with a least squares term based on points selected by the user. We have also developed a friendly user interface for our collaborators. We are currently preparing the manuscript for a submission to Eurographics18.
+\newline
+\newline
+
+In general I have worked during the past 2 years on a variety of problems in computer vision, machine learning and optimization. I have now a growing passion towards tearing the mask of deep networks to look at the beauty reason for why they work the way they do. 
+
+
+%I have a growing interest towards working in deep reinforcement learning, and even   
+%If I would have to summarize the main topics I worked on during my two years here at KAUST during my master’s degree, I would say my work mainly is fo- cused on generic object visual tracking. I do have interest in semi-supervised clustering and large scale smooth/non smooth optimization in general. I’m also very interested in Reinforcement and Deep Reinforcement Learning that I’m currenty ”learning” :).
+%\titlerunning{A very long title}
+
+
+\clearpage
+
+\bibliographystyle{splncs03}
+\bibliography{egbib}
+\end{document}
